@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target square[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/prashant/catkin_ws/devel/.private/iq_gnc/lib/iq_gnc/square[0m
+[100%] Built target square

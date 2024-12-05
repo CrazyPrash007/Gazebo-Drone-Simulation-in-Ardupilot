@@ -1,0 +1,10 @@
+/home/prashant/catkin_ws/src/iq_gnc/src/square.cpp: In function ‘int main(int, char**)’:
+/home/prashant/catkin_ws/src/iq_gnc/src/square.cpp:83:13: error: ‘publish_velocity’ was not declared in this scope
+   83 |             publish_velocity(forward_velocity);  // Function to send velocity command
+      |             ^~~~~~~~~~~~~~~~
+/home/prashant/catkin_ws/src/iq_gnc/src/square.cpp:87:13: error: ‘publish_velocity’ was not declared in this scope
+   87 |             publish_velocity(forward_velocity);  // Publish the stop command
+      |             ^~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/square.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

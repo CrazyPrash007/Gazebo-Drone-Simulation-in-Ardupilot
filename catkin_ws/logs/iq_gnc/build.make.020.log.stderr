@@ -1,0 +1,7 @@
+/home/prashant/catkin_ws/src/iq_gnc/src/square.cpp: In function ‘void stop_drone()’:
+/home/prashant/catkin_ws/src/iq_gnc/src/square.cpp:19:5: error: ‘set_velocity’ was not declared in this scope
+   19 |     set_velocity(0.0, 0.0, 0.0, 0.0);
+      |     ^~~~~~~~~~~~
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/square.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

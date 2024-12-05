@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target square[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/square.dir/src/square.cpp.o[0m
+/home/prashant/catkin_ws/src/iq_gnc/src/square.cpp: In function ‘int main(int, char**)’:
+/home/prashant/catkin_ws/src/iq_gnc/src/square.cpp:57:3: error: ‘set_velocity’ was not declared in this scope
+   57 |   set_velocity(3.0, 0.0, 0.0, 0.0); // Move forward with 3 m/s on pitch
+      |   ^~~~~~~~~~~~
+make[2]: *** [CMakeFiles/square.dir/build.make:63: CMakeFiles/square.dir/src/square.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/square.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

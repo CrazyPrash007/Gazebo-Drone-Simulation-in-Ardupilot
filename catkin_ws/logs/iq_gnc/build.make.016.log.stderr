@@ -1,0 +1,6 @@
+make[2]: *** No rule to make target '/home/prashant/catkin_ws/src/iq_gnc/src/gnc_tutorial.cpp', needed by 'CMakeFiles/gnc_example.dir/src/gnc_tutorial.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:1646: CMakeFiles/gnc_example.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/home/prashant/catkin_ws/src/iq_gnc/src/set_wp.cpp', needed by 'CMakeFiles/set_wp.dir/src/set_wp.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:1619: CMakeFiles/set_wp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
